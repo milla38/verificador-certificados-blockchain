@@ -1,0 +1,7 @@
+CERTIFICADO ACADEMICO DE PRUEBA
+
+Estudiante: Millaray Verdugo
+Documento: Certificado Curso Blockchain
+Institucion: Universidad de Prueba
+Fecha: 2026
+Estado: Documento original registrado en blockchain

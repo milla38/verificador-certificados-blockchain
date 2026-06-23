@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Certificados Blockchain</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <section class="card">
+            <p class="tag">Demo Blockchain · Sepolia</p>
+
+            <h1>Verificador de Certificados Académicos</h1>
+
+            <p class="subtitle">
+                Valida certificados mediante su hash SHA-256 sin almacenar el documento completo en blockchain.
+            </p>
+
+            <div class="wallet-section">
+                <button id="connectWallet" class="btn primary">Conectar MetaMask</button>
+                <p id="walletAddress" class="wallet">Wallet no conectada</p>
+            </div>
+
+            <div class="divider"></div>
+
+            <section class="verify-section">
+                <h2>Verificar certificado</h2>
+
+                <p class="instruction">
+                    Selecciona un archivo. El documento no se sube a blockchain; solo se calcula su hash localmente para verificarlo en Sepolia.
+                </p>
+
+                <div class="file-box">
+                    <input type="file" id="fileInput">
+                </div>
+
+                <button id="verifyButton" class="btn secondary">
+                    Calcular hash y verificar
+                </button>
+            </section>
+
+            <section class="result-box">
+                <p class="label">Hash generado</p>
+                <p id="hashOutput" class="hash">Aún no se ha calculado</p>
+
+                <p class="label">Resultado</p>
+                <p id="resultOutput" class="result neutral">Sin verificación</p>
+            </section>
+
+            <p class="footer-note">
+                El contrato consulta únicamente el hash del archivo, no el contenido del certificado.
+            </p>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/ethers@6.13.4/dist/ethers.umd.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
