@@ -94,7 +94,7 @@ async function verifyCertificate() {
 
     } catch (error) {
         console.error(error);
-        resultOutput.textContent = "Error técnico: " + (error.shortMessage || erro.message);
+        resultOutput.textContent = "Error técnico: " + (error.shortMessage || error.message);
         resultOutput.className = "result invalid";
     }
 }
