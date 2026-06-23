@@ -445,13 +445,13 @@ El código fue ejecutado, probado y validado por el grupo mediante Ubuntu, Found
 
 ## 21. Referencias
 
-- Solidity Documentation: https://docs.soliditylang.org/
-- Foundry Book: https://book.getfoundry.sh/
-- Ethereum Documentation: https://ethereum.org/
-- MetaMask Documentation: https://docs.metamask.io/
-- Ethers.js Documentation: https://docs.ethers.org/
-- NIST Secure Hashing: https://csrc.nist.gov/projects/hash-functions
-- Sepolia Testnet: https://ethereum.org/en/developers/docs/networks/#sepolia
+- Material de clases del curso Blockchain.
+- Documentación oficial de Solidity: https://docs.soliditylang.org/
+- Documentación oficial de Foundry: https://book.getfoundry.sh/
+- Documentación de Ethereum: https://ethereum.org/
+- Documentación de MetaMask: https://docs.metamask.io/
+- Documentación de Ethers.js: https://docs.ethers.org/
+- National Institute of Standards and Technology, información sobre funciones hash SHA: https://csrc.nist.gov/projects/hash-functions
 
 ---
 
